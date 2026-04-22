@@ -1,0 +1,22 @@
+name: Sync Upstream Repository
+on:
+  schedule:
+    - cron: '0 2 * * *'  # 每天凌晨2点同步一次
+  workflow_dispatch:  # 允许手动触发
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Sync upstream changes
+        run: |
+          git config user.name "GitHub Actions"
+          git config user.email "actions@github.com"
+          git remote add upstream https://github.com/develop202/migu_video.git
+          git fetch upstream
+          git checkout main
+          git merge upstream/main
+          git push origin main
