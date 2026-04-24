@@ -1,0 +1,37 @@
+name: Upstream Sync
+
+permissions:
+  contents: write
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # 每天北京时间上午 8 点运行一次
+  workflow_dispatch: # 允许手动点击按钮触发同步
+
+jobs:
+  sync_latest_from_upstream:
+    name: Sync latest commits from upstream repo
+    runs-on: ubuntu-latest
+    if: ${{ github.event.repository.fork }}
+
+    steps:
+      # 第一步：检出你的仓库
+      - name: Checkout target repo
+        uses: actions/checkout@v4
+
+      # 第二步：同步上游更改
+      - name: Sync upstream changes
+        id: sync
+        uses: aormsby/fork-sync-actions@v3.4
+        with:
+          upstream_repository: develop202/migu_video
+          upstream_branch: main # 如果上游是 master，请改为 master
+          target_branch: main   # 你的仓库分支名
+          target_repo_token: ${{ secrets.GITHUB_TOKEN }}
+
+      # 第三步：检查同步结果
+      - name: Check for errors
+        if: failure()
+        run: |
+          echo "[Error] 由于上游仓库的更改与你的本地更改存在冲突，同步失败。"
+          exit 1
