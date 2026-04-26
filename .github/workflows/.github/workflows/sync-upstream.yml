@@ -1,27 +1,35 @@
-name: Sync Upstream
-
-permissions:
-  contents: write
+name: Upstream Sync
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 北京时间每天上午 8:00 自动运行
-  workflow_dispatch:      # 允许你随时手动点击同步
+    - cron: '0 0 * * *' # 每天凌晨自动同步一次
+  workflow_dispatch: # 允许你手动点击按钮触发同步
 
 jobs:
-  sync:
+  sync_latest_from_upstream:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # 赋予 Action 推送代码的权限
+
     steps:
-      - name: Checkout
+      - name: Checkout target repo
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0
+          fetch-depth: 0 # 获取完整历史，确保重置成功
 
-      - name: Sync Upstream
-        uses: aormsby/Fork-Sync-With-Upstream-action@v3.4.1
-        with:
-          target_repo_token: ${{ secrets.GITHUB_TOKEN }}
-          upstream_repository: develop202/migu_video
-          upstream_branch: main
-          target_branch: main
-          test_mode: false
+      - name: Sync Mirror
+        run: |
+          # 设置 Git 身份
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+
+          # 添加上游源并抓取
+          git remote add upstream https://github.com/develop202/migu_video.git
+          git fetch upstream main
+
+          # 核心操作：强行将本地分支指向并重置为上游状态
+          git checkout main
+          git reset --hard upstream/main
+
+          # 强制推送到你的仓库
+          git push origin main --force
