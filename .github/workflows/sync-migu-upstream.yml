@@ -1,0 +1,23 @@
+name: 自动同步咪咕视频仓库
+on:
+  schedule:
+    - cron: '0 */6 * * *'
+  workflow_dispatch:
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: 添加上游仓库
+        run: |
+          git remote add upstream https://github.com/develop202/migu_video.git
+          git config user.name "1374913826"
+          git config user.email "1374913826@users.noreply.github.com"
+      - name: 合并上游更新
+        run: |
+          git fetch upstream
+          git merge upstream/main --no-edit --allow-unrelated-histories
+          git push origin main
