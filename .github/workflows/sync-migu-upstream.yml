@@ -19,7 +19,7 @@ jobs:
       - name: 合并上游更新
         run: |
           git fetch upstream
-     - name: 拉取并合并自定义直播源
+      - name: 拉取并合并自定义直播源
         run: |
           curl -o custom.m3u https://raw.githubusercontent.com/wuge1234567890/zb/main/m3u/migu.m3u
           cat custom.m3u >> migu.m3u
