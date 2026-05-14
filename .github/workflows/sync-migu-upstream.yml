@@ -1,5 +1,5 @@
 name: 自动同步咪咕视频仓库
-于:
+on:
   schedule:
     - cron: '0 */6 * * *'
   workflow_dispatch:
