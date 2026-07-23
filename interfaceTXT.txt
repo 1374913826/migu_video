@@ -1,7 +1,7 @@
 央视频道,#genre#
-更新日期: 2026-7-23 11:41:51,http://play.kankanlive.com/live/1698234869325962.m3u8
+更新日期: 2026-7-23 12:32:52,http://play.kankanlive.com/live/1698234869325962.m3u8
 CCTV1综合,http://play.kankanlive.com/live/1698234869325962.m3u8
-CCTV15音乐,http://txycdn3.video.qq.com/1370782102.m3u8?time=1784774484&from=player&cdn=tcloud&sdtfrom=v401010931632&platform=4010603&butype=31&HLSP2P=1&vkey=nvkey_AQQgIMCoMcBn4GDs-LkPyX9cecbzt1QEv5_VlbdEiPtApKKeEEPlR7SPMYzkhP4e53_hu6YBcI2znHN8yDeT21bTVN2MEyYOIlm77Eq-wBQ3GDAG1-3sO5J94OELUnxbKqQF72D_xK4MsprwE8yV3AinXNqv57cnEKsy09ZUEJB_PGjg6eQc0mq8Fgy9kHQeI34MdA0oebdsfEBIe7ye7fbC8gO6GDfydbx5JKeneRPGVJMYcH7BjgMl2V7FTMSUrjtzdOmpsxPzHAe4Iw4n3qFhe7CsDFW3IxeG4nD0UXn8xut9XAcqS1PMvEu8HykcDZjo8mvlBbQPJBN5b-1uy8Ps71dVOhogiF4WyHnehKdz3G7yta1XHFXGJfTVN-SPt2-AP1sJIc_rnljlZTnjEiKXhachkORBY3DAeDSGiV8rGpfjEjcOpP5njK2idS9qYG8rP2BMbV44oOWnaH8xVRVXkX-4LU-yC7KIx3Zg5-r0e1jSMKbZBFM0SBJtoJaIPn0C-E7pr5y4H0IEkNWmmZ81eYHd-9HW8PBLf3An2TmWzaceAlQD&drmtype=0
+CCTV6电影,http://txycdn5.video.qq.com/1755771402.m3u8?time=1784775273&from=player&cdn=tcloud&sdtfrom=v401010931632&platform=4010603&butype=31&HLSP2P=1&vkey=nvkey_AQQgICn16QSxcRdlACgTTpjAq4EjRGJ3gXwcoPxWXJlTuSPBEIJOxPQK-5YKWpfxnuZRzEEBcHO5q_LRuqmuw7yGce4zEFzm_B9NXAO-QgQfFro0ios9bj4p5tpJb6Z53Vk0aou2b-CJzn50tJnS22eJ_v4wYHOKHkpPGn7wspn65DonEMWpf30I7aJm0JDwHK5ZiVLGCpDDY7zFCY5r5YsCz0Heo-IaqHWno6X0yrcHoZtMuUwQZXYe76-SEX7HqqlF0C0D0EtiSpE51M4--g7FgW5tOSOupgkW7707-gaLlPgeQ5nEPIhZ3ODnPwezXpVQfWHD6D_dIHNoJWPppBoUaySToEQPTgrm0nHuoKx01vzA4TXUk7BgwCeSUIp51dxmHo3jmddDfs1Kso8CaiOQjPRCR4FF_9LsIQbVnCfRpeGKmTY2wot5p7Qo5RB6tLEA1qR6jaB_umgTnSj9EEhKYm3aGmcjZhPpbxHBJ4iHw6OX1BsZJpZ6yjz4jWHChBJokWiPD3d3EwVYmmbJr-Ky0mZVnCB7tUh-KGhMA1qCx7er_RBV&drmtype=0
 CCTV16奥林匹克,http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
 卫视频道,#genre#
 湖南卫视,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
@@ -89,8 +89,6 @@ CCTV16奥林匹克,http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testp
 海门新闻综合,http://haimen-tv-hls.cm.jstv.com/haimen-tv/haimenxwzh.m3u8
 海门教育人文,http://haimen-tv-hls.cm.jstv.com/haimen-tv/haimenjyrw.m3u8
 海门经济生活,http://haimen-tv-hls.cm.jstv.com/haimen-tv/haimenjjzh.m3u8
-沭阳综合,http://shuyang-tv-hls.cm.jstv.com/shuyang-tv/shuyangzh.m3u8
-大丰一套,http://dafeng-tv-hls.cm.jstv.com/dafeng-tv/dafengyt.m3u8
 大丰二套,http://dafeng-tv-hls.cm.jstv.com/dafeng-tv/dafenget.m3u8
 如东1,http://rudong-tv-hls.cm.jstv.com/rudong-tv/rdxwzh.m3u8
 无锡新闻综合,http://stream.thmz.com/wxtv1/sd/live.m3u8
@@ -176,7 +174,6 @@ CCTV16奥林匹克,http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testp
 汤阴综合,http://tvpull.dxhmt.cn:9081/tv/10523-1.m3u8
 新乡县综合,http://tvpull.dxhmt.cn:9081/tv/10721-1.m3u8
 舞钢综合,http://tvpull.dxhmt.cn:9081/tv/10481-1.m3u8
-鹤壁新闻,http://pili-live-hls.hebitv.com/hebi/hbtv.m3u8
 灵宝新闻综合,http://tvpull.dxhmt.cn:9081/tv/11282-1.m3u8
 淮滨综合,http://tvpull.dxhmt.cn:9081/tv/11527-1.m3u8
 光山综合,http://tvpull.dxhmt.cn:9081/tv/11522-1.m3u8
@@ -260,7 +257,6 @@ CCTV16奥林匹克,http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testp
 秦安电视台,https://play.kankanlive.com/live/1680577080200944.m3u8
 秦安电视台,http://play.kankanlive.com/live/1680577080200944.flv
 超清频道,#genre#
-CCTV16超清,http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
 湖南卫视超清,http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 湖南卫视超清,https://hlsbkmgsplive.miguvideo.com/wd-hunanhd-2500/01.m3u8?&HlsSubType=&encrypt=
 湖南卫视超清,https://hlsbkmgsplive.miguvideo.com/wd-hunanhd-1200/01.m3u8?&HlsSubType=&encrypt=

@@ -1,10 +1,10 @@
 #EXTM3U x-tvg-url="https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/playback.xml,https://hk.gh-proxy.org/raw.githubusercontent.com/develop202/migu_video/refs/heads/main/playback.xml,https://develop202.github.io/migu_video/playback.xml,https://raw.githubusercontents.com/develop202/migu_video/refs/heads/main/playback.xml" catchup="append" catchup-source="&playbackbegin=${(b)yyyyMMddHHmmss}&playbackend=${(e)yyyyMMddHHmmss}"
-#EXTINF:-1 tvg-id="CCTV1综合" tvg-name="CCTV1综合" tvg-logo="" group-title="央视频道",更新日期: 2026-7-23 11:41:51
+#EXTINF:-1 tvg-id="CCTV1综合" tvg-name="CCTV1综合" tvg-logo="" group-title="央视频道",更新日期: 2026-7-23 12:32:52
 http://play.kankanlive.com/live/1698234869325962.m3u8
 #EXTINF:-1 tvg-id="CCTV1综合" tvg-name="CCTV1综合" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/2201/057/821/202204010054_1626677671392_H32_1080.webp" group-title="央视频道",CCTV1综合
 http://play.kankanlive.com/live/1698234869325962.m3u8
-#EXTINF:-1 tvg-id="CCTV15音乐" tvg-name="CCTV15音乐" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5501/083/628/202204010054_1626678245130_H32_1080.webp" group-title="央视频道",CCTV15音乐
-http://txycdn3.video.qq.com/1370782102.m3u8?time=1784774484&from=player&cdn=tcloud&sdtfrom=v401010931632&platform=4010603&butype=31&HLSP2P=1&vkey=nvkey_AQQgIMCoMcBn4GDs-LkPyX9cecbzt1QEv5_VlbdEiPtApKKeEEPlR7SPMYzkhP4e53_hu6YBcI2znHN8yDeT21bTVN2MEyYOIlm77Eq-wBQ3GDAG1-3sO5J94OELUnxbKqQF72D_xK4MsprwE8yV3AinXNqv57cnEKsy09ZUEJB_PGjg6eQc0mq8Fgy9kHQeI34MdA0oebdsfEBIe7ye7fbC8gO6GDfydbx5JKeneRPGVJMYcH7BjgMl2V7FTMSUrjtzdOmpsxPzHAe4Iw4n3qFhe7CsDFW3IxeG4nD0UXn8xut9XAcqS1PMvEu8HykcDZjo8mvlBbQPJBN5b-1uy8Ps71dVOhogiF4WyHnehKdz3G7yta1XHFXGJfTVN-SPt2-AP1sJIc_rnljlZTnjEiKXhachkORBY3DAeDSGiV8rGpfjEjcOpP5njK2idS9qYG8rP2BMbV44oOWnaH8xVRVXkX-4LU-yC7KIx3Zg5-r0e1jSMKbZBFM0SBJtoJaIPn0C-E7pr5y4H0IEkNWmmZ81eYHd-9HW8PBLf3An2TmWzaceAlQD&drmtype=0
+#EXTINF:-1 tvg-id="CCTV6电影" tvg-name="CCTV6电影" tvg-logo="http://wapx.cmvideo.cn:8080/publish/poms/image/5500/212/872/202204010054_1626679914432_H32_1080.webp" group-title="央视频道",CCTV6电影
+http://txycdn5.video.qq.com/1755771402.m3u8?time=1784775273&from=player&cdn=tcloud&sdtfrom=v401010931632&platform=4010603&butype=31&HLSP2P=1&vkey=nvkey_AQQgICn16QSxcRdlACgTTpjAq4EjRGJ3gXwcoPxWXJlTuSPBEIJOxPQK-5YKWpfxnuZRzEEBcHO5q_LRuqmuw7yGce4zEFzm_B9NXAO-QgQfFro0ios9bj4p5tpJb6Z53Vk0aou2b-CJzn50tJnS22eJ_v4wYHOKHkpPGn7wspn65DonEMWpf30I7aJm0JDwHK5ZiVLGCpDDY7zFCY5r5YsCz0Heo-IaqHWno6X0yrcHoZtMuUwQZXYe76-SEX7HqqlF0C0D0EtiSpE51M4--g7FgW5tOSOupgkW7707-gaLlPgeQ5nEPIhZ3ODnPwezXpVQfWHD6D_dIHNoJWPppBoUaySToEQPTgrm0nHuoKx01vzA4TXUk7BgwCeSUIp51dxmHo3jmddDfs1Kso8CaiOQjPRCR4FF_9LsIQbVnCfRpeGKmTY2wot5p7Qo5RB6tLEA1qR6jaB_umgTnSj9EEhKYm3aGmcjZhPpbxHBJ4iHw6OX1BsZJpZ6yjz4jWHChBJokWiPD3d3EwVYmmbJr-Ky0mZVnCB7tUh-KGhMA1qCx7er_RBV&drmtype=0
 #EXTINF:-1 tvg-id="CCTV16奥林匹克" tvg-name="CCTV16奥林匹克" tvg-logo="" group-title="央视频道",CCTV16奥林匹克
 http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="湖南卫视" tvg-name="湖南卫视" tvg-logo="" group-title="卫视频道",湖南卫视
@@ -169,10 +169,6 @@ http://haimen-tv-hls.cm.jstv.com/haimen-tv/haimenxwzh.m3u8
 http://haimen-tv-hls.cm.jstv.com/haimen-tv/haimenjyrw.m3u8
 #EXTINF:-1 tvg-id="海门经济生活" tvg-name="海门经济生活" tvg-logo="" group-title="江苏地区",海门经济生活
 http://haimen-tv-hls.cm.jstv.com/haimen-tv/haimenjjzh.m3u8
-#EXTINF:-1 tvg-id="沭阳综合" tvg-name="沭阳综合" tvg-logo="" group-title="江苏地区",沭阳综合
-http://shuyang-tv-hls.cm.jstv.com/shuyang-tv/shuyangzh.m3u8
-#EXTINF:-1 tvg-id="大丰一套" tvg-name="大丰一套" tvg-logo="" group-title="江苏地区",大丰一套
-http://dafeng-tv-hls.cm.jstv.com/dafeng-tv/dafengyt.m3u8
 #EXTINF:-1 tvg-id="大丰二套" tvg-name="大丰二套" tvg-logo="" group-title="江苏地区",大丰二套
 http://dafeng-tv-hls.cm.jstv.com/dafeng-tv/dafenget.m3u8
 #EXTINF:-1 tvg-id="如东1" tvg-name="如东1" tvg-logo="" group-title="江苏地区",如东1
@@ -331,8 +327,6 @@ http://tvpull.dxhmt.cn:9081/tv/10523-1.m3u8
 http://tvpull.dxhmt.cn:9081/tv/10721-1.m3u8
 #EXTINF:-1 tvg-id="舞钢综合" tvg-name="舞钢综合" tvg-logo="" group-title="河南地区",舞钢综合
 http://tvpull.dxhmt.cn:9081/tv/10481-1.m3u8
-#EXTINF:-1 tvg-id="鹤壁新闻" tvg-name="鹤壁新闻" tvg-logo="" group-title="河南地区",鹤壁新闻
-http://pili-live-hls.hebitv.com/hebi/hbtv.m3u8
 #EXTINF:-1 tvg-id="灵宝新闻综合" tvg-name="灵宝新闻综合" tvg-logo="" group-title="河南地区",灵宝新闻综合
 http://tvpull.dxhmt.cn:9081/tv/11282-1.m3u8
 #EXTINF:-1 tvg-id="淮滨综合" tvg-name="淮滨综合" tvg-logo="" group-title="河南地区",淮滨综合
@@ -495,8 +489,6 @@ http://play.kankanlive.com/live/1661761962676984.flv
 https://play.kankanlive.com/live/1680577080200944.m3u8
 #EXTINF:-1 tvg-id="秦安电视台" tvg-name="秦安电视台" tvg-logo="" group-title="甘肃地区",秦安电视台
 http://play.kankanlive.com/live/1680577080200944.flv
-#EXTINF:-1 tvg-id="CCTV16超清" tvg-name="CCTV16超清" tvg-logo="" group-title="超清频道",CCTV16超清
-http://38.75.136.137:98/gslb/dsdqpub/cctv16hd.m3u8?auth=testpub
 #EXTINF:-1 tvg-id="湖南卫视超清" tvg-name="湖南卫视超清" tvg-logo="" group-title="超清频道",湖南卫视超清
 http://hlsal-ldvt.qing.mgtv.com/nn_live/nn_x64/Y2RuZXhfaWQ9YWxfaGxzX2xkdnQmZT02OTE0NjA0JnY9MSZpZD1ITldTWkdTVCZzPTcwN2RiYTc2YzJjNmJmMTQ4MmUyZGYzOWU2NWM3YWFi/HNWSZGST.m3u8
 #EXTINF:-1 tvg-id="湖南卫视超清" tvg-name="湖南卫视超清" tvg-logo="" group-title="超清频道",湖南卫视超清
